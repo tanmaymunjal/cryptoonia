@@ -1,0 +1,33 @@
+.pageComponent {
+  height: 100vh;
+  background-color: rgb(245, 107, 103);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.componentLeft {
+  display: flex;
+}
+
+.componentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}
+
+.comingsoon {
+  animation: 10s expand;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
