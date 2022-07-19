@@ -7,12 +7,11 @@ const AppComponent = () => {
         <img src="/assistant.png" alt="" />
       </div>
       <div className="componentRight">
-        <div className="comingsoon">Coming Soon...</div>
-        <img
-          src="/discord.png"
-          alt="Cryptoonia discord"
-          height="100px"
-          width="100px"
+      <img
+          src="/Asset_1.svg"
+          alt="Cryptoonia logo"
+          height="80%"
+          width="80%"
         />
       </div>
     </div>
